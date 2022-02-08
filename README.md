@@ -1,2 +1,2 @@
 # loginPage
-Login Page | Timer for Rubik's Cube
+Login Page | An Social App for Rubik's Cube
