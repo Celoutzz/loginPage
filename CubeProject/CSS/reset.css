@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+}
+
+
+html {
+  font-family: 'DM Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: url(https://wallpapercave.com/wp/Yzh44iC.jpg);
+
+  background-size: auto;
+  background-repeat: no-repeat;
+
+  height: 100vh;
+
+  overflow: hidden;
+
+  -webkit-font-smoothing: antialiased;
+  
+  -webkit-font-smoothing: auto;
+
+  user-select: none;
+}
+
+body, html {
+  transition: 0.5s ease;
+}

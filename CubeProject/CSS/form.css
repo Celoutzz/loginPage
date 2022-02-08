@@ -1,0 +1,120 @@
+/* Form and inputs */
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 80%;
+  min-width: 18rem;
+}
+
+form input {
+  width: 15rem;
+
+  border-top: none;
+  border-left: none;
+  border-right: none;
+
+  border-bottom: 1px solid #000;
+
+  height: 2.5rem;
+
+  margin-bottom: 2.0rem;
+  padding: 0.5rem;
+
+  outline: none;
+
+}
+
+form input::placeholder {
+  color: rgb(112, 112, 112);
+  font-size: 0.9rem;
+
+  padding-left: 0.4rem;
+}
+
+form label {
+  margin-left: -10rem;
+}
+
+
+input.button {
+  border-radius: 1.5rem;
+  border: 2px solid #000000;
+
+  background: #FFFFFF;
+
+  color: #000000;
+
+  font-size: 1.0rem;
+  font-weight: 600;
+
+  margin-top: 1.0rem;
+}
+
+input.button:hover {
+  background: #949191;
+
+  color: #FFFFFF;
+
+  border: 2px solid #949191;
+
+  transition: 0.4s;
+
+  cursor: pointer;
+}
+
+/* checkbox */
+form input[type=checkbox] {
+  width: 1.3rem;
+
+  margin-top: -1.6rem;
+  margin-left: -1rem;
+
+  border: 1px solid red;
+}
+
+label.check {
+  margin-left: 0.5rem;
+  margin-bottom: 3.5rem;
+
+  font-size: 0.9rem;
+}
+
+
+
+div.pass {
+  margin-top: -0.7rem;
+  margin-bottom: 0.5rem;
+}
+
+div.pass a {
+
+  font-size: 0.9rem;
+
+  color: rgb(67, 15, 190);
+
+  text-decoration: none;
+
+}
+
+div.signup-link a {
+  color: rgb(67, 15, 190);
+}
+
+
+
+/* Icons */
+.txt-field {
+  display: flex;
+  align-items: center;
+
+}
+
+.txt-field i {
+  font-size: 1.5rem;
+
+  margin-top: -1.6rem;
+  margin-right: 0.7rem;
+}
